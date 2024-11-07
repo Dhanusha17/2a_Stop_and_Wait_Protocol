@@ -28,7 +28,6 @@ while True:
     else:
         c.close()
         break
-
 ```
 ## SERVER
 ```
@@ -38,14 +37,11 @@ s.connect(('localhost',8000))
 while True:
     print(s.recv(1024).decode())
     s.send("Acknowledgement Recived".encode())
-
 ```
 ## OUTPUT
 ## CLIENT
 ![Screenshot 2024-08-27 093649](https://github.com/user-attachments/assets/d0d4ee32-20d8-4620-bf75-0b4b36e2e1f2)
-
 ## SERVER
 ![Screenshot 2024-08-27 093545](https://github.com/user-attachments/assets/0bcaa073-8ba9-4af1-ab73-e090237542af)
-
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed.
